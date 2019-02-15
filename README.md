@@ -7,10 +7,15 @@ The tutorial starts from the most basic way to train a neural network. Basically
 ## Key aspects of PyTorch:
 
 -dynamic graphs
+
 -numpy-like programming
+
 -gpu computation
+
 -class to create your differentiable networks
+
 -easy install and set up and very good support
+
 -very easy to use in comparison with TensorFlow or Theano (in my opinion TensorFlow makes things more complicated). To use TensorFlow I personally prefer Theano (the problem is that Theano is not supported anymore)
 
 
