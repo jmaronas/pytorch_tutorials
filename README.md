@@ -37,34 +37,34 @@ Please use a GPU (google colab if you do not have acces to one).
 The tutorials are organized in different scripts. Just go inside and read the comments. You should follow the next order:
 
 * FF_mnist_first_script.py:
-         + How pytorch looks like and the most important methods
-         + Typical torch pipeline (without using usefull utilities like torch.nn). Just to show the basic
-         + This code resemble what Theano does but with dynamic computation graph
-         + The tipical machine learning pipeline: forward, cost, backward, update is done in the most simple way
+    + How pytorch looks like and the most important methods
+    + Typical torch pipeline (without using usefull utilities like torch.nn). Just to show the basic
+    + This code resemble what Theano does but with dynamic computation graph
+    + The tipical machine learning pipeline: forward, cost, backward, update is done in the most simple way
 
 *  FF_mnist_second_script.py
-        + How can we optmize the parameters easily
-        + how can we use the torchvision interface to load a provided dataset
-        + what is torch.no_grad() and how to use
+    + How can we optmize the parameters easily
+    + how can we use the torchvision interface to load a provided dataset
+    + what is torch.no_grad() and how to use
 
 * FF_mnist_third_script.py
-       + This code starts using the nn.Module class provided by pytorch.
-       + We will also use the optimizer. However we can always access the parameter list and perform the gradient update as we want. Keras users cannot do this as they do not know how backpropagation works and need an optimizer. Good researchers can invent new update methods and in this case, either they implement their own optimizer or they perform the optimization looping over parameters. Be a researcher and not a keras user.
+    + This code starts using the nn.Module class provided by pytorch.
+    + We will also use the optimizer. However we can always access the parameter list and perform the gradient update as we want. Keras users cannot do this as they do not know how backpropagation works and need an optimizer. Good researchers can invent new update methods and in this case, either they implement their own optimizer or they perform the optimization looping over parameters. Be a researcher and not a keras user.
 
 * FF_mnist_dropout_first_script.py
-       + Introduce Dropout
-       + Use dropout in the complicated way, however this will let me show the importance of pytorch dynamic graph
+    + Introduce Dropout
+    + Use dropout in the complicated way, however this will let me show the importance of pytorch dynamic graph
   
 *  FF_mnist_second_script.py
-       + Introduce Dropout
-       + Use dropout in the weepers (keras users) way.
-       + Use batch normalization
-       + Introduce torch.functional
+    + Introduce Dropout
+    + Use dropout in the weepers (keras users) way.
+    + Use batch normalization
+    + Introduce torch.functional
 
 * CONV_cifar10.py
-       + Convolutional Neural Network
-       + Data augmentation using the torchvision transform package
-       + learning rate scheduler
+    + Convolutional Neural Network
+    + Data augmentation using the torchvision transform package
+    + learning rate scheduler
 
 
 
