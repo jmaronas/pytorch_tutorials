@@ -21,20 +21,23 @@ The tutorial starts from the most basic way to train a neural network. Basically
 
 # Installation
 
-To run this tutorials you only need to install a virtual enviroment with python3.7 and pytorch 1.0.0 (though I think they can run also in 0.4.0 and python2.7)
+To run this tutorials you only need to install a virtual enviroment with python3.7 and pytorch 1.4.0 (though I think they can run also in 0.4.0 and python2.7)
 
 ```
 sudo apt-get install python-virtualenv
 sudo apt-get install python3.7 #in ubuntu16 you have to add the snake ppa repository
 virtualenv -p python3.7 python3.7_pytorch_cuda10.0_1-0-0
 source python3.7_pytorch_cuda10.0_1-0-0/bin/activate
-pip install https://download.pytorch.org/whl/cu100/torch-1.0.0-cp37-cp37m-linux_x86_64.whl torchvision
+pip install torch==1.4.0
 python -c "import torch; print(torch.__version__)"
 ```
 Please use a GPU (google colab if you do not have acces to one).
 # Tutorials
 
 The tutorials are organized in different scripts. Just go inside and read the comments. You should follow the next order:
+
+* torch_autograd.py
+  * Illustrate how torch compute derivatives. It shows how to compute partial derivatives ending up computing the Jacobian.
 
 * FF_mnist_first_script.py:
     + How pytorch looks like and the most important methods
